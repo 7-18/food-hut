@@ -1,0 +1,189 @@
+@import "dark";
+
+main {
+  div.container {
+    div.row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      margin-top: 0;
+      text-transform: capitalize;
+
+      div.col {
+        position: relative;
+
+        div.main-text {
+          padding: 100px;
+
+          small {
+            display: inline-flex;
+            background-color: #2d1717;
+            border-radius: 100px;
+            padding: 7px;
+            margin-bottom: 20px;
+            color: $primary-color;
+            &::before {
+              background-image: url("./images/heart.png");
+              width: 1.25rem;
+              height: 1.25rem;
+              content: "";
+              background-repeat: no-repeat;
+              background-size: 1.25rem;
+              margin-right: 8px;
+            }
+          }
+
+          h1 {
+            color: $primary-color;
+            font-size: $title-size;
+            font-weight: $title-weight;
+            margin-bottom: 20px;
+            position: relative;
+
+            img {
+              position: absolute;
+              height: 70px;
+              width: 80px;
+              right: 0;
+              top: 0;
+            }
+
+            & span.yellow {
+              display: inline-flex;
+              position: relative;
+
+              &::after {
+                position: absolute;
+                content: "";
+                background-image: url("./images/underline.svg");
+                height: 20px;
+                width: 40rem;
+                content: "";
+                background-repeat: no-repeat;
+                background-size: 15rem;
+                bottom: -25px;
+              }
+            }
+          }
+
+
+          p {
+            color: $primary-color;
+            font-size: 24px;
+            font-weight: $paragraph-weight;
+            margin-bottom: 20px;
+            margin: 30px 0;
+            opacity: 0.8;
+            text-transform: none;
+          }
+
+          form {
+            margin-bottom: 30px;
+
+            input {
+              background-image: url("../images/search.png");
+              background-repeat: no-repeat;
+              background-position: right calc(0.375em + 0.1875rem) center;
+              background-size: 2rem;
+              border: 0.5px solid #ffffff;
+              border-radius: 100px;
+              padding: $padding;
+              width: 100%;
+              background-color: #191919;
+
+              &::placeholder {
+                color: $primary-color;
+                opacity: 0.5;
+              }
+
+              &:focus {
+                outline: none;
+              }
+            }
+          }
+
+          button {
+            font-size: $paragraph-size;
+            font-weight: $paragraph-weight;
+            transition: 0.3s;
+
+            &.btn:hover {
+              background: transparent;
+              border-color: $salmon;
+              color: $salmon;
+            }
+
+            &.watch {
+              position: relative;
+              padding: 12px 0px 12px 55px;
+              margin-left: 15px;
+              background: transparent;
+
+              span {
+                color: $primary-color;
+                opacity: 0.8;
+                transition: 0.3s;
+
+                &:hover {
+                  color: $salmon;
+                }
+              }
+
+              &::before {
+                background-image: url("./images/Play\ button.png");
+                background-repeat: no-repeat;
+                background-position: left calc(-0.5em + 0.1875rem);
+                background-size: 5rem;
+                content: "";
+                width: 5rem;
+                height: 5rem;
+                position: absolute;
+                top: 0;
+                left: -10%;
+                margin-right: 20px;
+                filter: hue-rotate(180deg) invert(1);
+              }
+
+              &:hover {
+                border-color: transparent;
+              }
+            }
+          }
+        }
+
+        img {
+          position: absolute;
+          top: -25%;
+          right: 0;
+          width: 100%;
+
+        }
+      }
+    }
+
+    div.slider {
+      padding: 100px;
+      padding-top: 0;
+
+      img {
+        width: 22px;
+        height: 61px;
+        animation: jumpArrow 1.5s infinite;
+        position: absolute;
+      }
+
+      @keyframes jumpArrow {
+        0% {
+          margin-top: 0;
+        }
+
+        50% {
+          margin-top: 20px;
+        }
+
+        100% {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import "light";
+
+section.section-more-services {
+  div.container {
+    position: relative;
+    margin-top: 100px;
+
+    div.row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+      div.col {
+        div.more-services-text {
+          text-transform: capitalize;
+          padding-top: 11rem;
+          margin-left: -50px;
+
+          h2 {
+            font-size: $title-size;
+            font-weight: $title-weight;
+            margin-bottom: 20px;
+            text-transform: none;
+            width: 452px;
+            color: $primary-color;
+          }
+
+          p {
+            font-size: 18px;
+            font-weight: $paragraph-weight;
+            opacity: 0.8;
+            color: $primary-color;
+            text-transform: none;
+            margin-bottom: 30px;
+            padding-right: 40px;
+          }
+
+          div.row-services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 0fr));
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 5px;
+            grid-row-gap: 30px;
+            color: $primary-color;
+
+            div.col-services {
+              display: flex;
+              align-items: center;
+
+              img {
+                width: 26px;
+                height: 26px;
+                margin-right: 10px;
+              }
+            }
+          }
+
+          button {
+            font-size: $paragraph-size;
+            font-weight: $paragraph-weight;
+            transition: 0.3s;
+            margin-top: 30px;
+
+            &.btn:hover {
+              background: transparent;
+              border-color: $salmon;
+              color: $salmon;
+            }
+          }
+        }
+
+        div.more-services-img {
+          img {
+            position: absolute;
+            left: 0;
+            filter: brightness(1.1);
+            mix-blend-mode: multiply;
+          }
+        }
+      }
+    }
+
+    div.arrow-more-services {
+      position: absolute;
+      left: 450px;
+      top: 75px;
+      z-index: 1;
+    }
+  }
+}

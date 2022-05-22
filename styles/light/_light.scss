@@ -1,0 +1,22 @@
+//Variables
+$primary-color: #191919;
+$secondary-color: #ffffff;
+$salmon: #f54748;
+$yellow: #fdc55e;
+$padding: 12px 25px;
+// Text
+
+// Title
+$title-size: 48px;
+$title-weight: 900;
+
+// Paragraph
+$paragraph-size: 20px;
+$paragraph-weight: 400;
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg,
+      rgba(245, 122, 71, 0.06) 0%,
+      rgba(245, 71, 72, 0) 100%);
+}

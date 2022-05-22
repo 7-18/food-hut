@@ -1,0 +1,65 @@
+@import "dark";
+
+.logo {
+  filter: hue-rotate(180deg) invert(1);
+}
+
+nav {
+  text-transform: capitalize;
+  font-size: $paragraph-size;
+  font-weight: $paragraph-weight;
+  position: relative;
+  z-index: 99;
+
+  div.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+    div.nav-menu ul {
+      display: flex;
+
+      li.nav-link {
+        list-style: none;
+        margin-left: 30px;
+
+        a {
+          color: $primary-color;
+          transition: 0.3s;
+
+          &:hover {
+            color: $salmon;
+          }
+
+          &.btn {
+            color: $secondary-color;
+
+            &:hover {
+              color: $salmon;
+              background: transparent;
+              border-color: $salmon;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  div.arrow-nav {
+    img.arrow-dashed {
+      position: absolute;
+      width: 132.5px;
+      height: 140px;
+      left: 245px;
+      top: 55.5px;
+    }
+
+    img.arrow {
+      position: absolute;
+      width: 15px;
+      height: 10px;
+      left: 368px;
+      top: 195px;
+    }
+  }
+}

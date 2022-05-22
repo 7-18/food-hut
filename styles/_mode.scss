@@ -1,0 +1,22 @@
+@import "light/main";
+
+html[data-theme="light"] {
+  @import "light/main";
+}
+
+html[data-theme="dark"] {
+  @import "dark/main";
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html[data-theme="dark"] {
+    @import "dark/main";
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html[data-theme="light"] {
+    @import "light/main";
+  }
+}

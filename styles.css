@@ -1,0 +1,3105 @@
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+nav {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  z-index: 99;
+}
+nav div.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+nav div.navbar div.nav-menu ul {
+  display: flex;
+}
+nav div.navbar div.nav-menu ul li.nav-link {
+  list-style: none;
+  margin-left: 30px;
+}
+nav div.navbar div.nav-menu ul li.nav-link a {
+  color: #191919;
+  transition: 0.3s;
+}
+nav div.navbar div.nav-menu ul li.nav-link a:hover {
+  color: #f54748;
+}
+nav div.navbar div.nav-menu ul li.nav-link a.btn {
+  color: #ffffff;
+}
+nav div.navbar div.nav-menu ul li.nav-link a.btn:hover {
+  color: #f54748;
+  background: transparent;
+  border-color: #f54748;
+}
+nav div.arrow-nav img.arrow-dashed {
+  position: absolute;
+  width: 132.5px;
+  height: 140px;
+  left: 245px;
+  top: 55.5px;
+}
+nav div.arrow-nav img.arrow {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  left: 368px;
+  top: 195px;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+main div.container div.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 0;
+  text-transform: capitalize;
+}
+main div.container div.row div.col {
+  position: relative;
+}
+main div.container div.row div.col div.main-text {
+  padding: 100px;
+}
+main div.container div.row div.col div.main-text small {
+  display: inline-flex;
+  background-color: #fee7e5;
+  border-radius: 100px;
+  padding: 7px;
+  margin-bottom: 20px;
+  color: #191919;
+}
+main div.container div.row div.col div.main-text small::before {
+  background-image: url("./images/heart.png");
+  width: 1.25rem;
+  height: 1.25rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  margin-right: 8px;
+}
+main div.container div.row div.col div.main-text h1 {
+  color: #191919;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+main div.container div.row div.col div.main-text h1 img {
+  position: absolute;
+  height: 70px;
+  width: 80px;
+  right: 0;
+  top: 0;
+}
+main div.container div.row div.col div.main-text h1 span.yellow {
+  display: inline-flex;
+  position: relative;
+}
+main div.container div.row div.col div.main-text h1 span.yellow::after {
+  position: absolute;
+  content: "";
+  background-image: url("./images/underline.svg");
+  height: 20px;
+  width: 40rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 15rem;
+  bottom: -25px;
+}
+main div.container div.row div.col div.main-text p {
+  color: #191919;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin: 30px 0;
+  opacity: 0.8;
+  text-transform: none;
+}
+main div.container div.row div.col div.main-text form {
+  margin-bottom: 30px;
+}
+main div.container div.row div.col div.main-text form input {
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: 2rem;
+  border: 0.5px solid #4b4b4b;
+  border-radius: 100px;
+  padding: 12px 25px;
+  width: 100%;
+}
+main div.container div.row div.col div.main-text form input:focus {
+  outline: none;
+}
+main div.container div.row div.col div.main-text button {
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+main div.container div.row div.col div.main-text button.btn:hover {
+  background: transparent;
+  border-color: #f54748;
+  color: #f54748;
+}
+main div.container div.row div.col div.main-text button.watch {
+  position: relative;
+  padding: 12px 0px 12px 55px;
+  margin-left: 15px;
+  background: transparent;
+}
+main div.container div.row div.col div.main-text button.watch span {
+  color: #191919;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+main div.container div.row div.col div.main-text button.watch span:hover {
+  color: #f54748;
+}
+main div.container div.row div.col div.main-text button.watch::before {
+  background-image: url("./images/Play button.png");
+  background-repeat: no-repeat;
+  background-position: left calc(-0.5em + 0.1875rem);
+  background-size: 5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  margin-right: 20px;
+}
+main div.container div.row div.col div.main-text button.watch:hover {
+  border-color: transparent;
+}
+main div.container div.row div.col img {
+  position: absolute;
+  top: -25%;
+  right: 0;
+  width: 100%;
+}
+main div.container div.slider {
+  padding: 100px;
+  padding-top: 0;
+}
+main div.container div.slider img {
+  width: 22px;
+  height: 61px;
+  animation: jumpArrow 1.5s infinite;
+  position: absolute;
+}
+@keyframes jumpArrow {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+section.section-today {
+  position: relative;
+}
+section.section-today div.dashed {
+  position: absolute;
+  left: 0;
+  right: 87.75%;
+  top: 18.01%;
+  bottom: 79.39%;
+  z-index: 999;
+}
+section.section-today div.container {
+  padding: 50px;
+  position: relative;
+}
+section.section-today div.container div.today {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+section.section-today div.container div.today h2 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #191919;
+}
+section.section-today div.container div.today p {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #191919;
+  padding: 10px 155px;
+}
+section.section-today div.container div.today-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+section.section-today div.container div.today-row .today-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+  background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 450.75%);
+  border-radius: 20px;
+  position: relative;
+}
+section.section-today div.container div.today-row .today-card img {
+  width: 253.93px;
+  height: 253.93px;
+}
+section.section-today div.container div.today-row .today-card div.likes {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 38px;
+}
+section.section-today div.container div.today-row .today-card div.likes .users {
+  width: 74px;
+  height: 38px;
+  margin-right: 15px;
+}
+section.section-today div.container div.today-row .today-card div.likes .stars {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+section.section-today div.container div.today-row .today-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #f54748;
+}
+section.section-today div.container div.today-row .today-card p {
+  opacity: 0.8;
+  color: #191919;
+}
+section.section-today div.container div.today-row .today-card button {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+section.section-today div.container div.today-row .today-card button.btn:hover {
+  background: #ffffff;
+  border-color: #f54748;
+  color: #f54748;
+}
+section.section-today div.rosemary {
+  position: absolute;
+  right: 0;
+}
+section.section-today div.rosemary img {
+  width: 100px;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+section.section-more-services div.container {
+  position: relative;
+  margin-top: 100px;
+}
+section.section-more-services div.container div.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+section.section-more-services div.container div.row div.col div.more-services-text {
+  text-transform: capitalize;
+  padding-top: 11rem;
+  margin-left: -50px;
+}
+section.section-more-services div.container div.row div.col div.more-services-text h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: none;
+  width: 452px;
+  color: #191919;
+}
+section.section-more-services div.container div.row div.col div.more-services-text p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #191919;
+  text-transform: none;
+  margin-bottom: 30px;
+  padding-right: 40px;
+}
+section.section-more-services div.container div.row div.col div.more-services-text div.row-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 0fr));
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+  color: #191919;
+}
+section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services {
+  display: flex;
+  align-items: center;
+}
+section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services img {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+section.section-more-services div.container div.row div.col div.more-services-text button {
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+section.section-more-services div.container div.row div.col div.more-services-text button.btn:hover {
+  background: transparent;
+  border-color: #f54748;
+  color: #f54748;
+}
+section.section-more-services div.container div.row div.col div.more-services-img img {
+  position: absolute;
+  left: 0;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+section.section-more-services div.container div.arrow-more-services {
+  position: absolute;
+  left: 450px;
+  top: 75px;
+  z-index: 1;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+section.section-menu div.container {
+  margin-top: 100px;
+  padding: 50px;
+  position: relative;
+  margin-bottom: 50px;
+}
+section.section-menu div.container div.menu-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+section.section-menu div.container div.menu-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  width: 55%;
+  color: #191919;
+}
+section.section-menu div.container div.menu-options {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+section.section-menu div.container div.menu-options button {
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+section.section-menu div.container div.menu-options button.disable {
+  background: transparent;
+  border: 1px solid #4b4b4b;
+  color: rgba(75, 75, 75, 0.8);
+}
+section.section-menu div.container div.menu-options button.disable:hover {
+  background: #ffffff;
+  border-color: #f54748;
+  color: #f54748;
+}
+section.section-menu div.container div.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+section.section-menu div.container div.menu .menu-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+  background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 450.75%);
+  border-radius: 20px;
+  position: relative;
+}
+section.section-menu div.container div.menu .menu-card img {
+  width: 253.93px;
+  height: 253.93px;
+}
+section.section-menu div.container div.menu .menu-card div.likes {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 38px;
+}
+section.section-menu div.container div.menu .menu-card div.likes .users {
+  width: 74px;
+  height: 38px;
+  margin-right: 15px;
+}
+section.section-menu div.container div.menu .menu-card div.likes .stars {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+section.section-menu div.container div.menu .menu-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #f54748;
+}
+section.section-menu div.container div.menu .menu-card p {
+  opacity: 0.8;
+  color: #191919;
+}
+section.section-menu div.container div.menu .menu-card button {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+section.section-menu div.container div.menu .menu-card button.btn:hover {
+  background: #ffffff;
+  border-color: #f54748;
+  color: #f54748;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+section.section-download {
+  background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 1100%);
+}
+section.section-download div.container {
+  position: relative;
+  margin-top: 100px;
+}
+section.section-download div.container div.download-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+section.section-download div.container div.download-row div.download-col div.download-text {
+  padding: 150px 0px 0px 60px;
+}
+section.section-download div.container div.download-row div.download-col div.download-text h2 {
+  font-size: 48px;
+  color: #191919;
+}
+section.section-download div.container div.download-row div.download-col div.download-text p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 60px 70px 60px 0;
+  color: #191919;
+  opacity: 0.8;
+  text-transform: none;
+}
+section.section-download div.container div.download-row div.download-col div.download-text img {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 147px;
+  height: 49px;
+  margin-right: 15px;
+}
+section.section-download div.container div.download-row div.download-col img {
+  width: 100%;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+
+footer {
+  background: #ffffff;
+  margin-top: 150px;
+}
+footer div.container {
+  display: flex;
+  padding: 100px;
+  padding-top: 0;
+}
+footer div.container h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+footer div.container h3.title {
+  font-size: 32px;
+}
+footer div.container div.col {
+  margin: 0px 20px;
+  font-weight: 500;
+}
+footer div.container div.col.left-right {
+  display: flex;
+  flex-direction: column;
+}
+footer div.container div.col.left-right p {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #191919;
+}
+footer div.container div.col.left-right img {
+  width: 100px;
+}
+footer div.container div.col.left-right input {
+  background: #E8E8E8;
+  border: none;
+  border-radius: 100px;
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+footer div.container div.col.left-right input:focus {
+  outline: none;
+}
+footer div.container div.col.center {
+  text-transform: capitalize;
+  width: 25%;
+  padding: 0 0 0 30px;
+}
+footer div.container div.col.center ul li {
+  list-style: none;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+footer div.container div.col.center ul li a {
+  color: #191919;
+}
+footer div.container div.col.center ul li a:hover {
+  border-color: #f54748;
+  color: #f54748;
+}
+footer p.copyright {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #191919;
+}
+
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] nav {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  z-index: 99;
+}
+html[data-theme=light] nav div.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+html[data-theme=light] nav div.navbar div.nav-menu ul {
+  display: flex;
+}
+html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link {
+  list-style: none;
+  margin-left: 30px;
+}
+html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a {
+  color: #191919;
+  transition: 0.3s;
+}
+html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a:hover {
+  color: #f54748;
+}
+html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a.btn {
+  color: #ffffff;
+}
+html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a.btn:hover {
+  color: #f54748;
+  background: transparent;
+  border-color: #f54748;
+}
+html[data-theme=light] nav div.arrow-nav img.arrow-dashed {
+  position: absolute;
+  width: 132.5px;
+  height: 140px;
+  left: 245px;
+  top: 55.5px;
+}
+html[data-theme=light] nav div.arrow-nav img.arrow {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  left: 368px;
+  top: 195px;
+}
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] main div.container div.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 0;
+  text-transform: capitalize;
+}
+html[data-theme=light] main div.container div.row div.col {
+  position: relative;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text {
+  padding: 100px;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text small {
+  display: inline-flex;
+  background-color: #fee7e5;
+  border-radius: 100px;
+  padding: 7px;
+  margin-bottom: 20px;
+  color: #191919;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text small::before {
+  background-image: url("./images/heart.png");
+  width: 1.25rem;
+  height: 1.25rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  margin-right: 8px;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text h1 {
+  color: #191919;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text h1 img {
+  position: absolute;
+  height: 70px;
+  width: 80px;
+  right: 0;
+  top: 0;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text h1 span.yellow {
+  display: inline-flex;
+  position: relative;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text h1 span.yellow::after {
+  position: absolute;
+  content: "";
+  background-image: url("./images/underline.svg");
+  height: 20px;
+  width: 40rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 15rem;
+  bottom: -25px;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text p {
+  color: #191919;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin: 30px 0;
+  opacity: 0.8;
+  text-transform: none;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text form {
+  margin-bottom: 30px;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text form input {
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: 2rem;
+  border: 0.5px solid #4b4b4b;
+  border-radius: 100px;
+  padding: 12px 25px;
+  width: 100%;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text form input:focus {
+  outline: none;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button {
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button.btn:hover {
+  background: transparent;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button.watch {
+  position: relative;
+  padding: 12px 0px 12px 55px;
+  margin-left: 15px;
+  background: transparent;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button.watch span {
+  color: #191919;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button.watch span:hover {
+  color: #f54748;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button.watch::before {
+  background-image: url("./images/Play button.png");
+  background-repeat: no-repeat;
+  background-position: left calc(-0.5em + 0.1875rem);
+  background-size: 5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  margin-right: 20px;
+}
+html[data-theme=light] main div.container div.row div.col div.main-text button.watch:hover {
+  border-color: transparent;
+}
+html[data-theme=light] main div.container div.row div.col img {
+  position: absolute;
+  top: -25%;
+  right: 0;
+  width: 100%;
+}
+html[data-theme=light] main div.container div.slider {
+  padding: 100px;
+  padding-top: 0;
+}
+html[data-theme=light] main div.container div.slider img {
+  width: 22px;
+  height: 61px;
+  animation: jumpArrow 1.5s infinite;
+  position: absolute;
+}
+@keyframes jumpArrow {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] section.section-today {
+  position: relative;
+}
+html[data-theme=light] section.section-today div.dashed {
+  position: absolute;
+  left: 0;
+  right: 87.75%;
+  top: 18.01%;
+  bottom: 79.39%;
+  z-index: 999;
+}
+html[data-theme=light] section.section-today div.container {
+  padding: 50px;
+  position: relative;
+}
+html[data-theme=light] section.section-today div.container div.today {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+html[data-theme=light] section.section-today div.container div.today h2 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #191919;
+}
+html[data-theme=light] section.section-today div.container div.today p {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #191919;
+  padding: 10px 155px;
+}
+html[data-theme=light] section.section-today div.container div.today-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+  background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 450.75%);
+  border-radius: 20px;
+  position: relative;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card img {
+  width: 253.93px;
+  height: 253.93px;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card div.likes {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 38px;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card div.likes .users {
+  width: 74px;
+  height: 38px;
+  margin-right: 15px;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card div.likes .stars {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #f54748;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card p {
+  opacity: 0.8;
+  color: #191919;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card button {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+html[data-theme=light] section.section-today div.container div.today-row .today-card button.btn:hover {
+  background: #ffffff;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=light] section.section-today div.rosemary {
+  position: absolute;
+  right: 0;
+}
+html[data-theme=light] section.section-today div.rosemary img {
+  width: 100px;
+}
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] section.section-more-services div.container {
+  position: relative;
+  margin-top: 100px;
+}
+html[data-theme=light] section.section-more-services div.container div.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text {
+  text-transform: capitalize;
+  padding-top: 11rem;
+  margin-left: -50px;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: none;
+  width: 452px;
+  color: #191919;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #191919;
+  text-transform: none;
+  margin-bottom: 30px;
+  padding-right: 40px;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text div.row-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 0fr));
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+  color: #191919;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services {
+  display: flex;
+  align-items: center;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services img {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text button {
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text button.btn:hover {
+  background: transparent;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-img img {
+  position: absolute;
+  left: 0;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+html[data-theme=light] section.section-more-services div.container div.arrow-more-services {
+  position: absolute;
+  left: 450px;
+  top: 75px;
+  z-index: 1;
+}
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] section.section-menu div.container {
+  margin-top: 100px;
+  padding: 50px;
+  position: relative;
+  margin-bottom: 50px;
+}
+html[data-theme=light] section.section-menu div.container div.menu-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+html[data-theme=light] section.section-menu div.container div.menu-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  width: 55%;
+  color: #191919;
+}
+html[data-theme=light] section.section-menu div.container div.menu-options {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+html[data-theme=light] section.section-menu div.container div.menu-options button {
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+html[data-theme=light] section.section-menu div.container div.menu-options button.disable {
+  background: transparent;
+  border: 1px solid #4b4b4b;
+  color: rgba(75, 75, 75, 0.8);
+}
+html[data-theme=light] section.section-menu div.container div.menu-options button.disable:hover {
+  background: #ffffff;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=light] section.section-menu div.container div.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+  background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 450.75%);
+  border-radius: 20px;
+  position: relative;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card img {
+  width: 253.93px;
+  height: 253.93px;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card div.likes {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 38px;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card div.likes .users {
+  width: 74px;
+  height: 38px;
+  margin-right: 15px;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card div.likes .stars {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #f54748;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card p {
+  opacity: 0.8;
+  color: #191919;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card button {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+html[data-theme=light] section.section-menu div.container div.menu .menu-card button.btn:hover {
+  background: #ffffff;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] section.section-download {
+  background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 1100%);
+}
+html[data-theme=light] section.section-download div.container {
+  position: relative;
+  margin-top: 100px;
+}
+html[data-theme=light] section.section-download div.container div.download-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text {
+  padding: 150px 0px 0px 60px;
+}
+html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text h2 {
+  font-size: 48px;
+  color: #191919;
+}
+html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 60px 70px 60px 0;
+  color: #191919;
+  opacity: 0.8;
+  text-transform: none;
+}
+html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text img {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 147px;
+  height: 49px;
+  margin-right: 15px;
+}
+html[data-theme=light] section.section-download div.container div.download-row div.download-col img {
+  width: 100%;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+html[data-theme=light] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+}
+html[data-theme=light] footer {
+  background: #ffffff;
+  margin-top: 150px;
+}
+html[data-theme=light] footer div.container {
+  display: flex;
+  padding: 100px;
+  padding-top: 0;
+}
+html[data-theme=light] footer div.container h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+html[data-theme=light] footer div.container h3.title {
+  font-size: 32px;
+}
+html[data-theme=light] footer div.container div.col {
+  margin: 0px 20px;
+  font-weight: 500;
+}
+html[data-theme=light] footer div.container div.col.left-right {
+  display: flex;
+  flex-direction: column;
+}
+html[data-theme=light] footer div.container div.col.left-right p {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #191919;
+}
+html[data-theme=light] footer div.container div.col.left-right img {
+  width: 100px;
+}
+html[data-theme=light] footer div.container div.col.left-right input {
+  background: #E8E8E8;
+  border: none;
+  border-radius: 100px;
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+html[data-theme=light] footer div.container div.col.left-right input:focus {
+  outline: none;
+}
+html[data-theme=light] footer div.container div.col.center {
+  text-transform: capitalize;
+  width: 25%;
+  padding: 0 0 0 30px;
+}
+html[data-theme=light] footer div.container div.col.center ul li {
+  list-style: none;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+html[data-theme=light] footer div.container div.col.center ul li a {
+  color: #191919;
+}
+html[data-theme=light] footer div.container div.col.center ul li a:hover {
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=light] footer p.copyright {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #191919;
+}
+
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] .logo {
+  filter: hue-rotate(180deg) invert(1);
+}
+html[data-theme=dark] nav {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  z-index: 99;
+}
+html[data-theme=dark] nav div.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+html[data-theme=dark] nav div.navbar div.nav-menu ul {
+  display: flex;
+}
+html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link {
+  list-style: none;
+  margin-left: 30px;
+}
+html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a {
+  color: #ffffff;
+  transition: 0.3s;
+}
+html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a:hover {
+  color: #f54748;
+}
+html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a.btn {
+  color: #191919;
+}
+html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a.btn:hover {
+  color: #f54748;
+  background: transparent;
+  border-color: #f54748;
+}
+html[data-theme=dark] nav div.arrow-nav img.arrow-dashed {
+  position: absolute;
+  width: 132.5px;
+  height: 140px;
+  left: 245px;
+  top: 55.5px;
+}
+html[data-theme=dark] nav div.arrow-nav img.arrow {
+  position: absolute;
+  width: 15px;
+  height: 10px;
+  left: 368px;
+  top: 195px;
+}
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] main div.container div.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin-top: 0;
+  text-transform: capitalize;
+}
+html[data-theme=dark] main div.container div.row div.col {
+  position: relative;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text {
+  padding: 100px;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text small {
+  display: inline-flex;
+  background-color: #2d1717;
+  border-radius: 100px;
+  padding: 7px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text small::before {
+  background-image: url("./images/heart.png");
+  width: 1.25rem;
+  height: 1.25rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  margin-right: 8px;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text h1 {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text h1 img {
+  position: absolute;
+  height: 70px;
+  width: 80px;
+  right: 0;
+  top: 0;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text h1 span.yellow {
+  display: inline-flex;
+  position: relative;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text h1 span.yellow::after {
+  position: absolute;
+  content: "";
+  background-image: url("./images/underline.svg");
+  height: 20px;
+  width: 40rem;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 15rem;
+  bottom: -25px;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin: 30px 0;
+  opacity: 0.8;
+  text-transform: none;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text form {
+  margin-bottom: 30px;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text form input {
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: right calc(0.375em + 0.1875rem) center;
+  background-size: 2rem;
+  border: 0.5px solid #ffffff;
+  border-radius: 100px;
+  padding: 12px 25px;
+  width: 100%;
+  background-color: #191919;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text form input::placeholder {
+  color: #ffffff;
+  opacity: 0.5;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text form input:focus {
+  outline: none;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button {
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button.btn:hover {
+  background: transparent;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button.watch {
+  position: relative;
+  padding: 12px 0px 12px 55px;
+  margin-left: 15px;
+  background: transparent;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button.watch span {
+  color: #ffffff;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button.watch span:hover {
+  color: #f54748;
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button.watch::before {
+  background-image: url("./images/Play button.png");
+  background-repeat: no-repeat;
+  background-position: left calc(-0.5em + 0.1875rem);
+  background-size: 5rem;
+  content: "";
+  width: 5rem;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: -10%;
+  margin-right: 20px;
+  filter: hue-rotate(180deg) invert(1);
+}
+html[data-theme=dark] main div.container div.row div.col div.main-text button.watch:hover {
+  border-color: transparent;
+}
+html[data-theme=dark] main div.container div.row div.col img {
+  position: absolute;
+  top: -25%;
+  right: 0;
+  width: 100%;
+}
+html[data-theme=dark] main div.container div.slider {
+  padding: 100px;
+  padding-top: 0;
+}
+html[data-theme=dark] main div.container div.slider img {
+  width: 22px;
+  height: 61px;
+  animation: jumpArrow 1.5s infinite;
+  position: absolute;
+}
+@keyframes jumpArrow {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] section.section-today {
+  position: relative;
+}
+html[data-theme=dark] section.section-today div.dashed {
+  position: absolute;
+  left: 0;
+  right: 87.75%;
+  top: 18.01%;
+  bottom: 79.39%;
+  z-index: 999;
+}
+html[data-theme=dark] section.section-today div.container {
+  padding: 50px;
+  position: relative;
+}
+html[data-theme=dark] section.section-today div.container div.today {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+html[data-theme=dark] section.section-today div.container div.today h2 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-today div.container div.today p {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #ffffff;
+  padding: 10px 155px;
+}
+html[data-theme=dark] section.section-today div.container div.today-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+  background: linear-gradient(179.69deg, rgba(255, 255, 255, 0.2263) -31.53%, #F54748 450.75%);
+  border-radius: 20px;
+  position: relative;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card img {
+  width: 253.93px;
+  height: 253.93px;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card div.likes {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 38px;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card div.likes .users {
+  width: 74px;
+  height: 38px;
+  margin-right: 15px;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card div.likes .stars {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #f54748;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card p {
+  opacity: 0.8;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card button {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+html[data-theme=dark] section.section-today div.container div.today-row .today-card button.btn:hover {
+  background: #191919;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=dark] section.section-today div.rosemary {
+  position: absolute;
+  right: 0;
+}
+html[data-theme=dark] section.section-today div.rosemary img {
+  width: 100px;
+}
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] section.section-more-services div.container {
+  position: relative;
+  margin-top: 100px;
+}
+html[data-theme=dark] section.section-more-services div.container div.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text {
+  text-transform: capitalize;
+  padding-top: 11rem;
+  margin-left: -50px;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  text-transform: none;
+  width: 452px;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.8;
+  color: #ffffff;
+  text-transform: none;
+  margin-bottom: 30px;
+  padding-right: 40px;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text div.row-services {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 0fr));
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 30px;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services {
+  display: flex;
+  align-items: center;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services img {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text button {
+  font-size: 20px;
+  font-weight: 400;
+  transition: 0.3s;
+  margin-top: 30px;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text button.btn:hover {
+  background: transparent;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-img img {
+  position: absolute;
+  left: 0;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+}
+html[data-theme=dark] section.section-more-services div.container div.arrow-more-services {
+  position: absolute;
+  left: 450px;
+  top: 75px;
+  z-index: 1;
+}
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] section.section-menu div.container {
+  margin-top: 100px;
+  padding: 50px;
+  position: relative;
+  margin-bottom: 50px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu-title {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+html[data-theme=dark] section.section-menu div.container div.menu-title h2 {
+  font-size: 48px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  width: 55%;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-menu div.container div.menu-options {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu-options button {
+  font-size: 20px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+html[data-theme=dark] section.section-menu div.container div.menu-options button.disable {
+  background: transparent;
+  border: 1px solid #4b4b4b;
+  color: rgba(75, 75, 75, 0.8);
+}
+html[data-theme=dark] section.section-menu div.container div.menu-options button.disable:hover {
+  background: #191919;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=dark] section.section-menu div.container div.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 15px;
+  margin-top: 20px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 30px 30px 60px 30px;
+  background: linear-gradient(179.69deg, rgba(255, 255, 255, 0.2263) -31.53%, #F54748 450.75%);
+  border-radius: 20px;
+  position: relative;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card img {
+  width: 253.93px;
+  height: 253.93px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card div.likes {
+  display: flex;
+  align-items: center;
+  width: 156px;
+  height: 38px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card div.likes .users {
+  width: 74px;
+  height: 38px;
+  margin-right: 15px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card div.likes .stars {
+  width: 28px;
+  height: 28px;
+  margin-right: 5px;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+  text-transform: capitalize;
+  color: #f54748;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card p {
+  opacity: 0.8;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card button {
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+  font-size: 20px;
+  transition: 0.3s;
+}
+html[data-theme=dark] section.section-menu div.container div.menu .menu-card button.btn:hover {
+  background: #191919;
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] section.section-download {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC55E 373.18%);
+}
+html[data-theme=dark] section.section-download div.container {
+  position: relative;
+  margin-top: 100px;
+}
+html[data-theme=dark] section.section-download div.container div.download-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text {
+  padding: 150px 0px 0px 60px;
+}
+html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text h2 {
+  font-size: 48px;
+  color: #ffffff;
+}
+html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 60px 70px 60px 0;
+  color: #ffffff;
+  opacity: 0.8;
+  text-transform: none;
+}
+html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text img {
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 147px;
+  height: 49px;
+  margin-right: 15px;
+}
+html[data-theme=dark] section.section-download div.container div.download-row div.download-col img {
+  width: 100%;
+}
+html[data-theme=dark] body {
+  font-family: "Sofia Pro", sans-serif;
+  background: #191919;
+}
+html[data-theme=dark] footer {
+  background: #191919;
+  margin-top: 150px;
+}
+html[data-theme=dark] footer div.container {
+  display: flex;
+  padding: 100px;
+  padding-top: 0;
+}
+html[data-theme=dark] footer div.container h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+html[data-theme=dark] footer div.container h3.title {
+  font-size: 32px;
+}
+html[data-theme=dark] footer div.container div.col {
+  margin: 0px 20px;
+  font-weight: 500;
+}
+html[data-theme=dark] footer div.container div.col.left-right {
+  display: flex;
+  flex-direction: column;
+}
+html[data-theme=dark] footer div.container div.col.left-right p {
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+html[data-theme=dark] footer div.container div.col.left-right img {
+  width: 100px;
+}
+html[data-theme=dark] footer div.container div.col.left-right input {
+  background: #363636;
+  border: none;
+  border-radius: 100px;
+  padding: 15px 15px;
+  margin-right: 10px;
+}
+html[data-theme=dark] footer div.container div.col.left-right input:focus {
+  outline: none;
+}
+html[data-theme=dark] footer div.container div.col.center {
+  text-transform: capitalize;
+  width: 25%;
+  padding: 0 0 0 30px;
+}
+html[data-theme=dark] footer div.container div.col.center ul li {
+  list-style: none;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+html[data-theme=dark] footer div.container div.col.center ul li a {
+  color: #ffffff;
+}
+html[data-theme=dark] footer div.container div.col.center ul li a:hover {
+  border-color: #f54748;
+  color: #f54748;
+}
+html[data-theme=dark] footer p.copyright {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] .logo {
+    filter: hue-rotate(180deg) invert(1);
+  }
+  html[data-theme=dark] nav {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    z-index: 99;
+  }
+  html[data-theme=dark] nav div.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  html[data-theme=dark] nav div.navbar div.nav-menu ul {
+    display: flex;
+  }
+  html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link {
+    list-style: none;
+    margin-left: 30px;
+  }
+  html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a {
+    color: #ffffff;
+    transition: 0.3s;
+  }
+  html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a:hover {
+    color: #f54748;
+  }
+  html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a.btn {
+    color: #191919;
+  }
+  html[data-theme=dark] nav div.navbar div.nav-menu ul li.nav-link a.btn:hover {
+    color: #f54748;
+    background: transparent;
+    border-color: #f54748;
+  }
+  html[data-theme=dark] nav div.arrow-nav img.arrow-dashed {
+    position: absolute;
+    width: 132.5px;
+    height: 140px;
+    left: 245px;
+    top: 55.5px;
+  }
+  html[data-theme=dark] nav div.arrow-nav img.arrow {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    left: 368px;
+    top: 195px;
+  }
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] main div.container div.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 0;
+    text-transform: capitalize;
+  }
+  html[data-theme=dark] main div.container div.row div.col {
+    position: relative;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text {
+    padding: 100px;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text small {
+    display: inline-flex;
+    background-color: #2d1717;
+    border-radius: 100px;
+    padding: 7px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text small::before {
+    background-image: url("./images/heart.png");
+    width: 1.25rem;
+    height: 1.25rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    margin-right: 8px;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text h1 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text h1 img {
+    position: absolute;
+    height: 70px;
+    width: 80px;
+    right: 0;
+    top: 0;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text h1 span.yellow {
+    display: inline-flex;
+    position: relative;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text h1 span.yellow::after {
+    position: absolute;
+    content: "";
+    background-image: url("./images/underline.svg");
+    height: 20px;
+    width: 40rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    bottom: -25px;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text p {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin: 30px 0;
+    opacity: 0.8;
+    text-transform: none;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text form {
+    margin-bottom: 30px;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text form input {
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: 2rem;
+    border: 0.5px solid #ffffff;
+    border-radius: 100px;
+    padding: 12px 25px;
+    width: 100%;
+    background-color: #191919;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text form input::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text form input:focus {
+    outline: none;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button.btn:hover {
+    background: transparent;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button.watch {
+    position: relative;
+    padding: 12px 0px 12px 55px;
+    margin-left: 15px;
+    background: transparent;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button.watch span {
+    color: #ffffff;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button.watch span:hover {
+    color: #f54748;
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button.watch::before {
+    background-image: url("./images/Play button.png");
+    background-repeat: no-repeat;
+    background-position: left calc(-0.5em + 0.1875rem);
+    background-size: 5rem;
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    margin-right: 20px;
+    filter: hue-rotate(180deg) invert(1);
+  }
+  html[data-theme=dark] main div.container div.row div.col div.main-text button.watch:hover {
+    border-color: transparent;
+  }
+  html[data-theme=dark] main div.container div.row div.col img {
+    position: absolute;
+    top: -25%;
+    right: 0;
+    width: 100%;
+  }
+  html[data-theme=dark] main div.container div.slider {
+    padding: 100px;
+    padding-top: 0;
+  }
+  html[data-theme=dark] main div.container div.slider img {
+    width: 22px;
+    height: 61px;
+    animation: jumpArrow 1.5s infinite;
+    position: absolute;
+  }
+  @keyframes jumpArrow {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] section.section-today {
+    position: relative;
+  }
+  html[data-theme=dark] section.section-today div.dashed {
+    position: absolute;
+    left: 0;
+    right: 87.75%;
+    top: 18.01%;
+    bottom: 79.39%;
+    z-index: 999;
+  }
+  html[data-theme=dark] section.section-today div.container {
+    padding: 50px;
+    position: relative;
+  }
+  html[data-theme=dark] section.section-today div.container div.today {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+  }
+  html[data-theme=dark] section.section-today div.container div.today h2 {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-today div.container div.today p {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: #ffffff;
+    padding: 10px 155px;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin-top: 20px;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0.2263) -31.53%, #F54748 450.75%);
+    border-radius: 20px;
+    position: relative;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card img {
+    width: 253.93px;
+    height: 253.93px;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card div.likes {
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 38px;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card div.likes .users {
+    width: 74px;
+    height: 38px;
+    margin-right: 15px;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card div.likes .stars {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #f54748;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card p {
+    opacity: 0.8;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card button {
+    position: absolute;
+    bottom: -20px;
+    left: 25%;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  html[data-theme=dark] section.section-today div.container div.today-row .today-card button.btn:hover {
+    background: #191919;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=dark] section.section-today div.rosemary {
+    position: absolute;
+    right: 0;
+  }
+  html[data-theme=dark] section.section-today div.rosemary img {
+    width: 100px;
+  }
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] section.section-more-services div.container {
+    position: relative;
+    margin-top: 100px;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text {
+    text-transform: capitalize;
+    padding-top: 11rem;
+    margin-left: -50px;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: none;
+    width: 452px;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text p {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: #ffffff;
+    text-transform: none;
+    margin-bottom: 30px;
+    padding-right: 40px;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text div.row-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 0fr));
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 30px;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services {
+    display: flex;
+    align-items: center;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services img {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text button {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+    margin-top: 30px;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-text button.btn:hover {
+    background: transparent;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.row div.col div.more-services-img img {
+    position: absolute;
+    left: 0;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  html[data-theme=dark] section.section-more-services div.container div.arrow-more-services {
+    position: absolute;
+    left: 450px;
+    top: 75px;
+    z-index: 1;
+  }
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] section.section-menu div.container {
+    margin-top: 100px;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    width: 55%;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu-options {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu-options button {
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu-options button.disable {
+    background: transparent;
+    border: 1px solid #4b4b4b;
+    color: rgba(75, 75, 75, 0.8);
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu-options button.disable:hover {
+    background: #191919;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin-top: 20px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+    background: linear-gradient(179.69deg, rgba(255, 255, 255, 0.2263) -31.53%, #F54748 450.75%);
+    border-radius: 20px;
+    position: relative;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card img {
+    width: 253.93px;
+    height: 253.93px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card div.likes {
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 38px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card div.likes .users {
+    width: 74px;
+    height: 38px;
+    margin-right: 15px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card div.likes .stars {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #f54748;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card p {
+    opacity: 0.8;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card button {
+    position: absolute;
+    bottom: -20px;
+    left: 25%;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  html[data-theme=dark] section.section-menu div.container div.menu .menu-card button.btn:hover {
+    background: #191919;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] section.section-download {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FDC55E 373.18%);
+  }
+  html[data-theme=dark] section.section-download div.container {
+    position: relative;
+    margin-top: 100px;
+  }
+  html[data-theme=dark] section.section-download div.container div.download-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text {
+    padding: 150px 0px 0px 60px;
+  }
+  html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text h2 {
+    font-size: 48px;
+    color: #ffffff;
+  }
+  html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 60px 70px 60px 0;
+    color: #ffffff;
+    opacity: 0.8;
+    text-transform: none;
+  }
+  html[data-theme=dark] section.section-download div.container div.download-row div.download-col div.download-text img {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 147px;
+    height: 49px;
+    margin-right: 15px;
+  }
+  html[data-theme=dark] section.section-download div.container div.download-row div.download-col img {
+    width: 100%;
+  }
+  html[data-theme=dark] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: #191919;
+  }
+  html[data-theme=dark] footer {
+    background: #191919;
+    margin-top: 150px;
+  }
+  html[data-theme=dark] footer div.container {
+    display: flex;
+    padding: 100px;
+    padding-top: 0;
+  }
+  html[data-theme=dark] footer div.container h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  html[data-theme=dark] footer div.container h3.title {
+    font-size: 32px;
+  }
+  html[data-theme=dark] footer div.container div.col {
+    margin: 0px 20px;
+    font-weight: 500;
+  }
+  html[data-theme=dark] footer div.container div.col.left-right {
+    display: flex;
+    flex-direction: column;
+  }
+  html[data-theme=dark] footer div.container div.col.left-right p {
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
+  html[data-theme=dark] footer div.container div.col.left-right img {
+    width: 100px;
+  }
+  html[data-theme=dark] footer div.container div.col.left-right input {
+    background: #363636;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 15px;
+    margin-right: 10px;
+  }
+  html[data-theme=dark] footer div.container div.col.left-right input:focus {
+    outline: none;
+  }
+  html[data-theme=dark] footer div.container div.col.center {
+    text-transform: capitalize;
+    width: 25%;
+    padding: 0 0 0 30px;
+  }
+  html[data-theme=dark] footer div.container div.col.center ul li {
+    list-style: none;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  html[data-theme=dark] footer div.container div.col.center ul li a {
+    color: #ffffff;
+  }
+  html[data-theme=dark] footer div.container div.col.center ul li a:hover {
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=dark] footer p.copyright {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #ffffff;
+  }
+}
+@media (prefers-color-scheme: light) {
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] nav {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    z-index: 99;
+  }
+  html[data-theme=light] nav div.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  html[data-theme=light] nav div.navbar div.nav-menu ul {
+    display: flex;
+  }
+  html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link {
+    list-style: none;
+    margin-left: 30px;
+  }
+  html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a {
+    color: #191919;
+    transition: 0.3s;
+  }
+  html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a:hover {
+    color: #f54748;
+  }
+  html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a.btn {
+    color: #ffffff;
+  }
+  html[data-theme=light] nav div.navbar div.nav-menu ul li.nav-link a.btn:hover {
+    color: #f54748;
+    background: transparent;
+    border-color: #f54748;
+  }
+  html[data-theme=light] nav div.arrow-nav img.arrow-dashed {
+    position: absolute;
+    width: 132.5px;
+    height: 140px;
+    left: 245px;
+    top: 55.5px;
+  }
+  html[data-theme=light] nav div.arrow-nav img.arrow {
+    position: absolute;
+    width: 15px;
+    height: 10px;
+    left: 368px;
+    top: 195px;
+  }
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] main div.container div.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 0;
+    text-transform: capitalize;
+  }
+  html[data-theme=light] main div.container div.row div.col {
+    position: relative;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text {
+    padding: 100px;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text small {
+    display: inline-flex;
+    background-color: #fee7e5;
+    border-radius: 100px;
+    padding: 7px;
+    margin-bottom: 20px;
+    color: #191919;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text small::before {
+    background-image: url("./images/heart.png");
+    width: 1.25rem;
+    height: 1.25rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    margin-right: 8px;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text h1 {
+    color: #191919;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text h1 img {
+    position: absolute;
+    height: 70px;
+    width: 80px;
+    right: 0;
+    top: 0;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text h1 span.yellow {
+    display: inline-flex;
+    position: relative;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text h1 span.yellow::after {
+    position: absolute;
+    content: "";
+    background-image: url("./images/underline.svg");
+    height: 20px;
+    width: 40rem;
+    content: "";
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    bottom: -25px;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text p {
+    color: #191919;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin: 30px 0;
+    opacity: 0.8;
+    text-transform: none;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text form {
+    margin-bottom: 30px;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text form input {
+    background-image: url("../images/search.png");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.1875rem) center;
+    background-size: 2rem;
+    border: 0.5px solid #4b4b4b;
+    border-radius: 100px;
+    padding: 12px 25px;
+    width: 100%;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text form input:focus {
+    outline: none;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button.btn:hover {
+    background: transparent;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button.watch {
+    position: relative;
+    padding: 12px 0px 12px 55px;
+    margin-left: 15px;
+    background: transparent;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button.watch span {
+    color: #191919;
+    opacity: 0.8;
+    transition: 0.3s;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button.watch span:hover {
+    color: #f54748;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button.watch::before {
+    background-image: url("./images/Play button.png");
+    background-repeat: no-repeat;
+    background-position: left calc(-0.5em + 0.1875rem);
+    background-size: 5rem;
+    content: "";
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    margin-right: 20px;
+  }
+  html[data-theme=light] main div.container div.row div.col div.main-text button.watch:hover {
+    border-color: transparent;
+  }
+  html[data-theme=light] main div.container div.row div.col img {
+    position: absolute;
+    top: -25%;
+    right: 0;
+    width: 100%;
+  }
+  html[data-theme=light] main div.container div.slider {
+    padding: 100px;
+    padding-top: 0;
+  }
+  html[data-theme=light] main div.container div.slider img {
+    width: 22px;
+    height: 61px;
+    animation: jumpArrow 1.5s infinite;
+    position: absolute;
+  }
+  @keyframes jumpArrow {
+    0% {
+      margin-top: 0;
+    }
+    50% {
+      margin-top: 20px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] section.section-today {
+    position: relative;
+  }
+  html[data-theme=light] section.section-today div.dashed {
+    position: absolute;
+    left: 0;
+    right: 87.75%;
+    top: 18.01%;
+    bottom: 79.39%;
+    z-index: 999;
+  }
+  html[data-theme=light] section.section-today div.container {
+    padding: 50px;
+    position: relative;
+  }
+  html[data-theme=light] section.section-today div.container div.today {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+  }
+  html[data-theme=light] section.section-today div.container div.today h2 {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-today div.container div.today p {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: #191919;
+    padding: 10px 155px;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin-top: 20px;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+    background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 450.75%);
+    border-radius: 20px;
+    position: relative;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card img {
+    width: 253.93px;
+    height: 253.93px;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card div.likes {
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 38px;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card div.likes .users {
+    width: 74px;
+    height: 38px;
+    margin-right: 15px;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card div.likes .stars {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #f54748;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card p {
+    opacity: 0.8;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card button {
+    position: absolute;
+    bottom: -20px;
+    left: 25%;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  html[data-theme=light] section.section-today div.container div.today-row .today-card button.btn:hover {
+    background: #ffffff;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=light] section.section-today div.rosemary {
+    position: absolute;
+    right: 0;
+  }
+  html[data-theme=light] section.section-today div.rosemary img {
+    width: 100px;
+  }
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] section.section-more-services div.container {
+    position: relative;
+    margin-top: 100px;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text {
+    text-transform: capitalize;
+    padding-top: 11rem;
+    margin-left: -50px;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: none;
+    width: 452px;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text p {
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: #191919;
+    text-transform: none;
+    margin-bottom: 30px;
+    padding-right: 40px;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text div.row-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 0fr));
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 30px;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services {
+    display: flex;
+    align-items: center;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text div.row-services div.col-services img {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text button {
+    font-size: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+    margin-top: 30px;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-text button.btn:hover {
+    background: transparent;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=light] section.section-more-services div.container div.row div.col div.more-services-img img {
+    position: absolute;
+    left: 0;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  html[data-theme=light] section.section-more-services div.container div.arrow-more-services {
+    position: absolute;
+    left: 450px;
+    top: 75px;
+    z-index: 1;
+  }
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] section.section-menu div.container {
+    margin-top: 100px;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu-title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu-title h2 {
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 20px;
+    width: 55%;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu-options {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu-options button {
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu-options button.disable {
+    background: transparent;
+    border: 1px solid #4b4b4b;
+    color: rgba(75, 75, 75, 0.8);
+  }
+  html[data-theme=light] section.section-menu div.container div.menu-options button.disable:hover {
+    background: #ffffff;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin-top: 20px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 30px 30px 60px 30px;
+    background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 450.75%);
+    border-radius: 20px;
+    position: relative;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card img {
+    width: 253.93px;
+    height: 253.93px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card div.likes {
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 38px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card div.likes .users {
+    width: 74px;
+    height: 38px;
+    margin-right: 15px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card div.likes .stars {
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-transform: capitalize;
+    color: #f54748;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card p {
+    opacity: 0.8;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card button {
+    position: absolute;
+    bottom: -20px;
+    left: 25%;
+    font-size: 20px;
+    transition: 0.3s;
+  }
+  html[data-theme=light] section.section-menu div.container div.menu .menu-card button.btn:hover {
+    background: #ffffff;
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] section.section-download {
+    background: linear-gradient(179.69deg, rgb(255, 255, 255) 31.53%, #F54748 1100%);
+  }
+  html[data-theme=light] section.section-download div.container {
+    position: relative;
+    margin-top: 100px;
+  }
+  html[data-theme=light] section.section-download div.container div.download-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text {
+    padding: 150px 0px 0px 60px;
+  }
+  html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text h2 {
+    font-size: 48px;
+    color: #191919;
+  }
+  html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 60px 70px 60px 0;
+    color: #191919;
+    opacity: 0.8;
+    text-transform: none;
+  }
+  html[data-theme=light] section.section-download div.container div.download-row div.download-col div.download-text img {
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 147px;
+    height: 49px;
+    margin-right: 15px;
+  }
+  html[data-theme=light] section.section-download div.container div.download-row div.download-col img {
+    width: 100%;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+  }
+  html[data-theme=light] body {
+    font-family: "Sofia Pro", sans-serif;
+    background: linear-gradient(180deg, rgba(245, 122, 71, 0.06) 0%, rgba(245, 71, 72, 0) 100%);
+  }
+  html[data-theme=light] footer {
+    background: #ffffff;
+    margin-top: 150px;
+  }
+  html[data-theme=light] footer div.container {
+    display: flex;
+    padding: 100px;
+    padding-top: 0;
+  }
+  html[data-theme=light] footer div.container h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  html[data-theme=light] footer div.container h3.title {
+    font-size: 32px;
+  }
+  html[data-theme=light] footer div.container div.col {
+    margin: 0px 20px;
+    font-weight: 500;
+  }
+  html[data-theme=light] footer div.container div.col.left-right {
+    display: flex;
+    flex-direction: column;
+  }
+  html[data-theme=light] footer div.container div.col.left-right p {
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #191919;
+  }
+  html[data-theme=light] footer div.container div.col.left-right img {
+    width: 100px;
+  }
+  html[data-theme=light] footer div.container div.col.left-right input {
+    background: #E8E8E8;
+    border: none;
+    border-radius: 100px;
+    padding: 15px 15px;
+    margin-right: 10px;
+  }
+  html[data-theme=light] footer div.container div.col.left-right input:focus {
+    outline: none;
+  }
+  html[data-theme=light] footer div.container div.col.center {
+    text-transform: capitalize;
+    width: 25%;
+    padding: 0 0 0 30px;
+  }
+  html[data-theme=light] footer div.container div.col.center ul li {
+    list-style: none;
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  html[data-theme=light] footer div.container div.col.center ul li a {
+    color: #191919;
+  }
+  html[data-theme=light] footer div.container div.col.center ul li a:hover {
+    border-color: #f54748;
+    color: #f54748;
+  }
+  html[data-theme=light] footer p.copyright {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #191919;
+  }
+}
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 121px;
+  height: 78px;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.salmon {
+  color: #f54748;
+}
+
+.yellow {
+  color: #fdc55e;
+}
+
+.btn {
+  cursor: pointer;
+  background: #f54748;
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: 12px 25px;
+  text-transform: capitalize;
+}
+
+/*# sourceMappingURL=styles.css.map */

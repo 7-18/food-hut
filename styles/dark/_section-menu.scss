@@ -1,0 +1,120 @@
+@import "dark";
+
+section.section-menu {
+  div.container {
+    margin-top: 100px;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 50px;
+
+    div.menu-title {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      text-transform: capitalize;
+
+      h2 {
+        font-size: $title-size;
+        font-weight: $title-weight;
+        padding-bottom: 20px;
+        width: 55%;
+        color: $primary-color;
+      }
+    }
+
+    div.menu-options {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+
+      button {
+        font-size: $paragraph-size;
+        margin-right: 20px;
+        transition: .3s;
+
+        &.disable {
+          background: transparent;
+          border: 1px solid #4b4b4b;
+          color: rgb(75, 75, 75, 0.8);
+
+          &:hover {
+            background: $secondary-color;
+            border-color: $salmon;
+            color: $salmon;
+          }
+        }
+      }
+    }
+
+    div.menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 15px;
+      margin-top: 20px;
+
+      .menu-card {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 30px 30px 60px 30px;
+        background: linear-gradient(179.69deg, rgba(255, 255, 255, 0.2263) -31.53%, #F54748 450.75%);
+        border-radius: 20px;
+        position: relative;
+
+        img {
+          width: 253.93px;
+          height: 253.93px;
+        }
+
+        div.likes {
+          display: flex;
+          align-items: center;
+          width: 156px;
+          height: 38px;
+
+          .users {
+            width: 74px;
+            height: 38px;
+            margin-right: 15px;
+          }
+
+          .stars {
+            width: 28px;
+            height: 28px;
+            margin-right: 5px;
+          }
+        }
+
+        h4 {
+          font-size: $paragraph-size;
+          font-weight: 600;
+          margin: 20px 0;
+          text-transform: capitalize;
+          color: $salmon;
+        }
+
+        p {
+          opacity: 0.8;
+          color: $primary-color;
+        }
+
+        button {
+          position: absolute;
+          bottom: -20px;
+          left: 25%;
+          font-size: $paragraph-size;
+          transition: .3s;
+
+          &.btn:hover {
+            background: $secondary-color;
+            border-color: $salmon;
+            color: $salmon;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+//Style
+@import "mode";
+
+// Font
+@import url("http://fonts.cdnfonts.com/css/sofia-pro");
+
+//sass --watch ./styles/styles.scss styles.css
+
+$primary-color: #191919;
+$secondary-color: #ffffff;
+
+
+// Global
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Sofia Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 121px;
+  height: 78px;
+}
+
+#icon {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.salmon {
+  color: $salmon;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.btn {
+  cursor: pointer;
+  background: $salmon;
+  color: $secondary-color;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  padding: $padding;
+  text-transform: capitalize;
+}

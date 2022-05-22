@@ -1,0 +1,50 @@
+@import "light";
+
+section.section-download {
+  background: linear-gradient(179.69deg, rgba(255, 255, 255, 6) 31.53%, #F54748 1100%);
+
+  div.container {
+    position: relative;
+    margin-top: 100px;
+
+    div.download-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+      div.download-col {
+        div.download-text {
+          padding: 150px 0px 0px 60px;
+
+          h2 {
+            font-size: $title-size;
+            color: $primary-color;
+          }
+
+          p {
+            font-size: 18px;
+            font-weight: $paragraph-weight;
+            padding: 60px 70px 60px 0;
+            color: $primary-color;
+            opacity: 0.8;
+            text-transform: none;
+          }
+
+          img {
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            width: 147px;
+            height: 49px;
+            margin-right: 15px;
+          }
+        }
+
+        img {
+          width: 100%;
+          filter: brightness(1.1);
+          mix-blend-mode: multiply;
+        }
+      }
+    }
+  }
+}
